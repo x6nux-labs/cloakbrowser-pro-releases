@@ -9,4 +9,4 @@ Release 资产发布。
 - `scripts/sync_releases.py` —— 下载/校验/发布实现
 - `state/downloaded.json` —— 已镜像与基线记录（仅哈希，无密钥）
 
-首次配置：`gh secret set CLOAKBROWSER_LICENSE_KEY -R x6nux/cloakbrowser-pro-releases`
+首次配置：`gh secret set CLOAKBROWSER_LICENSE_KEY -R x6nux-labs/cloakbrowser-pro-releases`
