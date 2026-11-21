@@ -37,6 +37,22 @@
         "size": 541191978,
         "tag": "chromium-v156.0.8078.47.1-pro"
       }
+    },
+    "156.0.8078.47.8": {
+      "linux-arm64": {
+        "asset": "cloakbrowser-linux-arm64.tar.gz",
+        "mirrored_at": 1795303241,
+        "sha256": "ade92ae9254320687b7361044612bf11612425265d5166f51cea8c78b238d94f",
+        "size": 204116755,
+        "tag": "chromium-v156.0.8078.47.8-pro"
+      },
+      "linux-x64": {
+        "asset": "cloakbrowser-linux-x64.tar.gz",
+        "mirrored_at": 1795303231,
+        "sha256": "0ac3bf0c64b09503f433d5d05ec920cb4ca6c3b2342474dab273297a093ecccc",
+        "size": 216721871,
+        "tag": "chromium-v156.0.8078.47.8-pro"
+      }
     }
   },
   "seen": [
@@ -72,7 +88,8 @@
     "pro:154.0.8037.57.2",
     "pro:155.0.8059.39.1",
     "pro:155.0.8059.39.2",
-    "pro:156.0.8078.47.1"
+    "pro:156.0.8078.47.1",
+    "pro:156.0.8078.47.8"
   ],
   "skipped": [
     {
@@ -208,7 +225,25 @@
       "reason": "pinned_requires_paid_key",
       "served": "156.0.8078.47.1",
       "version": "154.0.8037.57.1"
+    },
+    {
+      "kind": "pro",
+      "platform": "darwin-arm64",
+      "reason": "not_in_manifest",
+      "version": "156.0.8078.47.8"
+    },
+    {
+      "kind": "pro",
+      "platform": "darwin-x64",
+      "reason": "not_in_manifest",
+      "version": "156.0.8078.47.8"
+    },
+    {
+      "kind": "pro",
+      "platform": "windows-x64",
+      "reason": "not_in_manifest",
+      "version": "156.0.8078.47.8"
     }
   ],
-  "updated_at": 1794242480
+  "updated_at": 1795303241
 }
